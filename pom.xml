@@ -9,17 +9,15 @@
   <distributionManagement>
     <repository>
         <id>central</id>
-        <name>ip-172-31-44-224.ap-southeast-1.compute.internal-releases</name>
-        <url>http://13.229.226.192:8081/artifactory/jfrogrepo</url>
+        <name>ip-172-31-84-104.ec2.internal-releases</name>
+        <url>http://3.91.99.199:8081/artifactory/jenkins-artif</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-172-31-44-224.ap-southeast-1.compute.internal-snapshots</name>
-        <url>http://13.229.226.192:8081/artifactory/jfrogrepo</url>
+        <name>ip-172-31-84-104.ec2.internal-snapshots</name>
+        <url>http://3.91.99.199:8081/artifactory/jenkins-artif</url>
     </snapshotRepository>
-</distributionManagement>
-  
-  
+</distributionManagement> 
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
